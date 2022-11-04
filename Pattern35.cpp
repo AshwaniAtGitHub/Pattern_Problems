@@ -12,11 +12,9 @@ int main(){
 	int n;
 	cout<<"Enter a number:"<<endl;
 	cin>>n;
-	int x=0;
-
 	for(int i=1; i<=n; i+=2){
 		for(int j=0; j<n; j++){
-			cout<<1<<" ";
+			cout<<0<<" ";
 		}
 		if(i==n){
 			break;
@@ -24,7 +22,7 @@ int main(){
 		cout<<endl;
 		for(int j=0; j<n; j++){
 			
-			cout<<0<<" ";
+			cout<<1<<" ";
 		}
 		
 		cout<<endl;		
